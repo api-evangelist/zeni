@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.zeni.ai/security
+url: https://www.zeni.ai/security
+certifications:
+- SOC 2 Type II
+compliance:
+- program: SOC 2 Type II
+  status: compliant
+  evidence: "Zeni is now SOC 2 Type II compliant to ensure that we protect your sensitive data at all costs; SOC 2 report available upon request."
+security_practices:
+- 256-bit AES encryption for data at rest
+- 256-bit SSL/TLS encryption for data in transit
+- Data tenant isolation with separate partitions
+- Employee background / criminal-record screening
+- Managed password hygiene for finance team accounts
+security_contact: security@zeni.ai
+notes: >-
+  ISO 27001, PCI DSS, HIPAA, and a formal bug-bounty/VDP were not found. No
+  /.well-known/security.txt is published (404 on zeni.ai, 403 on api.zeni.ai).
+  A named security contact (security@zeni.ai) is published on the /security page.

@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: https://api.zeni.ai/.well-known/oauth-protected-resource + https://www.zeni.ai/security
+standards:
+- id: oauth2
+  conforms: true
+  evidence: Zeni MCP server presents an OAuth 2.0 Bearer challenge with authorization_servers
+- id: rfc9728-oauth-protected-resource
+  conforms: true
+  evidence: /.well-known/oauth-protected-resource returns 200 with resource + authorization_servers + bearer_methods_supported
+- id: mcp
+  conforms: true
+  evidence: hosted Model Context Protocol server at https://api.zeni.ai/zeni-mcp-server/mcp
+- id: soc2-type-ii
+  conforms: true
+  evidence: "Security page states 'Zeni is now SOC 2 Type II compliant'; report available on request"
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public OpenAPI to confirm application/problem+json
+- id: iso-27001
+  conforms: false
+- id: pci-dss
+  conforms: false
+- id: gdpr
+  conforms: false

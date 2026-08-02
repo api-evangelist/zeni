@@ -1,0 +1,42 @@
+generated: '2026-07-21'
+method: searched
+status: published
+source: https://www.zeni.ai/product/zeni-mcp
+server:
+  name: zeni-mcp-server
+  transport: http
+  url: https://api.zeni.ai/zeni-mcp-server/mcp
+  resource_metadata: https://api.zeni.ai/.well-known/oauth-protected-resource
+  auth:
+    type: oauth2
+    authorization_servers:
+    - https://api.zeni.ai/auth
+    bearer_methods_supported:
+    - header
+    notes: OAuth sign-in scoped to your Zeni company; read-only by design (nothing can move money or edit the books).
+description: >-
+  Zeni MCP is a hosted, remote Model Context Protocol server that lets AI assistants
+  (Claude, OpenAI Codex, Google Antigravity) read a company's live Zeni financials.
+  It exposes ~20 read-only tools and is included free with a Zeni Bookkeeping
+  subscription. Setup is via a custom connector (~60 seconds): add the server URL and
+  complete the OAuth sign-in.
+clients:
+- Claude
+- OpenAI Codex
+- Google Antigravity
+setup:
+  connector_flow: Settings -> Connectors -> Add custom connector -> paste server URL -> authenticate
+tool_categories:
+- Financial analysis (P&L, balance sheet, trend detection)
+- Vendor insights (spend comparison, anomaly detection)
+- Core metrics (runway, burn, margins)
+- Forecasting and scenario modeling
+- Trend visualization
+- Accounts receivable / accounts payable analysis
+tools_count: 20
+access_model: read-only
+notes: >-
+  Tool inventory categories captured verbatim from the product page; the individual
+  tool names/schemas are behind OAuth (endpoint returns 401 with a WWW-Authenticate
+  Bearer + resource_metadata challenge). No public OpenAPI is published, so a per-tool
+  candidate list could not be derived.

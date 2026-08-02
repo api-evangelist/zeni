@@ -1,0 +1,83 @@
+﻿# About Zeni
+
+
+> Zeni is an AI bookkeeping software backed by a dedicated finance team. With a comprehensive suite of financial tools and services, you can leverage automation to save 70 hours per month and increase the accuracy of your financial operations.
+
+
+## Product
+
+
+- [https://www.zeni.ai/ai-bookkeeping](https://www.zeni.ai/ai-bookkeeping): AI Bookkeeping: Automated daily bookkeeping with AI categorization and expert review.
+- [https://www.zeni.ai/checking-accounts](https://www.zeni.ai/checking-accounts): AI Checking Account: Secure business checking accounts with high yield and FDIC insurance.
+- [https://www.zeni.ai/business-credit-card](https://www.zeni.ai/business-credit-card): AI Business Credit Card: Cash-back business credit cards with automated expense tracking.
+- [https://www.zeni.ai/bill-payments](https://www.zeni.ai/bill-payments): AI Bill Pay: Automated, same-day vendor payments with multi-level approval workflows.
+- [https://www.zeni.ai/reimbursements](https://www.zeni.ai/reimbursements): AI Reimbursement: Fast employee expense processing with AI receipt capture.
+
+
+## AI Agents
+
+
+- [https://www.zeni.ai/ai-cfo-agent](https://www.zeni.ai/ai-cfo-agent): AI CFO Agent: Strategic financial planning and budgeting assistance.
+- [https://www.zeni.ai/ai-accounting-agent](https://www.zeni.ai/ai-accounting-agent): AI Accounting Agent: Automated bookkeeping and reconciliation.
+- [https://www.zeni.ai/ai-expense-agent](https://www.zeni.ai/ai-expense-agent): AI Expense Agent: Intelligent expense classification and management.
+- [https://www.zeni.ai/ai-bills-agent](https://www.zeni.ai/ai-bills-agent): AI Bills Agent: Streamlined bill capture and payment automation.
+- [https://www.zeni.ai/ai-card-agent](https://www.zeni.ai/ai-card-agent): AI Card Agent: Smart credit card expense categorization and rewards management.
+- [https://www.zeni.ai/ai-banking-agent](https://www.zeni.ai/ai-banking-agent): AI Banking Agent: Real-time cash flow monitoring and bank account management.
+
+
+## Services
+
+
+- [https://www.zeni.ai/fractional-cfo](https://www.zeni.ai/fractional-cfo): Fractional CFO: On-demand expert financial leadership and advisory.
+- [https://www.zeni.ai/tax-accountant](https://www.zeni.ai/tax-accountant): Tax Accountant: Comprehensive tax planning and compliance services.
+- [https://www.zeni.ai/payroll](https://www.zeni.ai/payroll): Payroll: End-to-end payroll processing and compliance management.
+- [Other Services](https://www.zeni.ai/other-services): Whether you’re a founder searching for smarter bookkeeping or a scaling SaaS team, Zeni offers the tools and services to keep your finances on autopilot.
+
+
+## Customers
+
+
+- [https://www.zeni.ai/customers](https://www.zeni.ai/customers): Customer Stories: Case studies showcasing financial impact and operational efficiency.
+
+
+## Others
+
+
+- [Zeni Pricing](https://www.zeni.ai/pricing): Zeni offers full-service finance management and bookkeeping pricing plans that work for any size startup. Add on additional services to support your entire financial operations, including tax support, fractional CFO services, payroll management, and bill pay.
+- [Zeni Accounting & Bookkeeping Software Demo](https://www.zeni.ai/demo/request): Learn through Zeni's accounting and bookkeeping software demo how to get critical, real-time financial insights you need to make informed business decisions and streamline financial operations. See how Zeni makes your startup finances stress-free in just 30 minutes.
+
+
+## Resources
+
+
+- [https://www.zeni.ai/resources](https://www.zeni.ai/resources): Resource Hub: Zeni's financial operations resource hub breaks down complex finance and accounting topics in a clear, approachable way. Find confidence in your finances with our expert guides, case studies, articles, webinars and more. 
+- [https://www.zeni.ai/blog](https://www.zeni.ai/blog): Discover expert insights, tips, and trends in startup bookkeeping, finance, and fundraising. Stay ahead with Zeni’s latest blog articles crafted for founders and finance teams.
+- [Free startup financial model template: Download now in Excel and Google Sheets](https://www.zeni.ai/template/startup-financial-model-template): Download our startup financial model template and learn how you can use it to prepare forecasts that attract venture capitalist investors.
+- [Startup company valuation calculator](https://www.zeni.ai/template/startup-company-valuation-calculator): Use our startup company valuation calculator to estimate your company’s value and help inform your financial planning, strategic decisions, and investor discussions.
+- [Convertible note template in Word, PDF, and Google Docs](https://www.zeni.ai/template/convertible-note-template): Download our free convertible note template—available in Word, PDF, and Google Doc formats—and learn how to incorporate it into your fundraising strategy.
+- [R&D tax calculator](https://www.zeni.ai/r-d-calculator): See how much you qualify for in seconds. Don’t leave money on the table—unlock savings and reinvest in growth.
+- [Delaware franchise tax calculator](https://www.zeni.ai/template/delaware-franchise-tax-calculator): Use our Delaware franchise tax calculator to determine what you owe under the Authorized Shares and Assumed Par Value Capital methods.
+- [10 AI financial reporting automation strategies](https://www.zeni.ai/blog/financial-reporting-automation-strategies): AI enables you to streamline data collection, validate financial data, speed up financial report generation, and automate many other tasks.
+- [Series B valuations in 2025: What founders need to know](https://www.zeni.ai/blog/series-b-valuations): Median pre-money Series B valuations are $102.8M for primary rounds and $80.8M for bridge rounds at the start of 2025.
+- [GAAP accounting rules: Understanding the 10 principles](https://www.zeni.ai/blog/gaap-accounting-rules): GAAP accounting rules help improve your startup's financial integrity. Explore the ten principles to follow.
+- [Series A valuations in 2025: what founders need to know](https://www.zeni.ai/blog/series-a-valuations): Median pre-money Series A valuations are $45M for primary rounds and $43.6M for bridge rounds at the start of 2025.
+- [How to calculate AMT: A step-by-step guide](https://www.zeni.ai/blog/how-to-calculate-amt): 1. Determine your regular taxable income. 2. Make required adjustments. 3. Subtract your AMT exemption. 4. Calculate AMT taxable income.
+- [Straight-line method of depreciation: Definition, uses, pros, and cons](https://www.zeni.ai/blog/straight-line-method-of-depreciation): The straight-line method of depreciation spreads the cost of an asset evenly across its useful life, reflecting how the asset's economic value diminishes over time.
+- [How to calculate year-over-year growth w/formulas & steps](https://www.zeni.ai/blog/year-over-year-growth): YoY growth is calculated by dividing the current year from the past year and subtracting 1 to get a percentage.
+- [14 Best Startup Credit Cards to Consider in 2025](https://www.zeni.ai/blog/startup-credit-cards): Some of the best startup credit cards to consider include the Zeni Business Credit Card, Ink Business Cash Card, and Brex Card.
+- [Pre-seed valuations in 2025: What founders need to know](https://www.zeni.ai/blog/pre-seed-valuations): Pre-seed valuations are down in 2025, with the average sitting at $5.7M and the median at $5.3M. 
+- [How to spot a fake IRS letter and what to do about it](https://www.zeni.ai/blog/how-to-spot-a-fake-irs-letter): Learn to identify fake IRS letters with our guide to understand the signs, verify legitimacy, and take the right steps to protect yourself from scams.
+
+
+## Legal & Support
+
+
+- [https://www.zeni.ai/privacy-policy](https://www.zeni.ai/privacy-policy): Privacy Policy
+- [https://www.zeni.ai/terms-of-service](https://www.zeni.ai/terms-of-service): Terms of Service
+- [https://www.zeni.ai/support](https://www.zeni.ai/support): Support: Dedicated financial experts and help documentation.
+
+
+## Optional
+
+
+- [https://www.zeni.ai/careers](https://www.zeni.ai/careers): Careers: Opportunities to join the Zeni team.

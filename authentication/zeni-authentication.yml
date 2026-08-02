@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://api.zeni.ai/.well-known/oauth-protected-resource
+docs: https://www.zeni.ai/product/zeni-mcp
+summary:
+  types:
+  - oauth2
+  api_key_in: []
+  oauth2_flows:
+  - authorizationCode
+  notes: >-
+    Zeni exposes no public REST OpenAPI. The documented programmatic surface is the
+    hosted Zeni MCP server, which is an OAuth 2.0 protected resource (RFC 9728). The
+    protected-resource metadata advertises the authorization server and bearer-in-header
+    token presentation; access is scoped to the signed-in Zeni company and is read-only.
+schemes:
+- name: MCPBearer
+  type: oauth2
+  resource: https://api.zeni.ai/zeni-mcp-server/mcp
+  authorization_servers:
+  - https://api.zeni.ai/auth
+  bearer_methods_supported:
+  - header
+  access_model: read-only
+  scope: company
+  sources:
+  - https://api.zeni.ai/.well-known/oauth-protected-resource

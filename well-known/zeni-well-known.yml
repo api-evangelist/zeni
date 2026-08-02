@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: live /.well-known/ probes of zeni.ai and api.zeni.ai
+hosts:
+- host: https://api.zeni.ai
+  documents:
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    file: zeni-oauth-protected-resource.json
+    note: RFC 9728 OAuth 2.0 Protected Resource Metadata for the Zeni MCP server
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/security.txt
+    status: 403
+- host: https://zeni.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 200
+    note: real llms.txt (text/plain) saved verbatim at llms/zeni-llms.txt

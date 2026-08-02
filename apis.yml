@@ -1,8 +1,29 @@
 aid: zeni
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeni.png
 name: Zeni
-description: 'Zeni is a company surfaced as a portfolio company of sierra-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Zeni is an AI-powered bookkeeping and finance platform for startups and growing
+  businesses, combining machine-learning automation with a dedicated human finance
+  team. It connects to bank accounts, credit cards, payment platforms, and accounting
+  systems to automatically capture and categorize transactions, reconcile accounts,
+  and produce real-time financial dashboards and reports. Alongside AI bookkeeping,
+  Zeni offers bill pay, employee reimbursements, business checking accounts and credit
+  cards, payroll, tax accounting, and fractional CFO services. Zeni also ships a hosted,
+  read-only MCP (Model Context Protocol) server that lets AI assistants such as Claude,
+  OpenAI Codex, and Google Antigravity securely read a company's live Zeni financials
+  via OAuth. The company reports managing more than $20B in transactions annually.
 url: https://raw.githubusercontent.com/api-evangelist/zeni/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Bookkeeping
+- Accounting
+- Financial Operations
+- Startups
+- MCP
+- AI Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,40 @@ maintainers:
 common:
 - type: Website
   url: https://zeni.ai/
+- type: Documentation
+  url: https://www.zeni.ai/product/zeni-mcp
+- type: Pricing
+  url: https://www.zeni.ai/pricing
+- type: Blog
+  url: https://www.zeni.ai/blog
+- type: Login
+  url: https://app.zeni.ai/
+- type: SignUp
+  url: https://www.zeni.ai/demo/request
+- type: TermsOfService
+  url: https://www.zeni.ai/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.zeni.ai/legal/privacy-policy
+- type: Security
+  url: https://www.zeni.ai/security
+- type: Compliance
+  url: https://www.zeni.ai/security
+- type: TrustCenter
+  url: security/zeni-trust-center.yml
+- type: MCPServer
+  url: mcp/zeni-mcp.yml
+- type: WellKnown
+  url: well-known/zeni-well-known.yml
+- type: LLMsTxt
+  url: llms/zeni-llms.txt
+- type: Authentication
+  url: authentication/zeni-authentication.yml
+- type: Conformance
+  url: conformance/zeni-conformance.yml
+- type: DomainSecurity
+  url: security/zeni-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v1
