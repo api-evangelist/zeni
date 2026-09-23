@@ -1,4 +1,4 @@
-generated: '2026-07-21'
+generated: '2026-09-19'
 method: searched
 source: live /.well-known/ probes of zeni.ai and api.zeni.ai
 hosts:
@@ -14,6 +14,11 @@ hosts:
     status: 403
   - path: /.well-known/security.txt
     status: 403
+  - path: /auth/.well-known/oauth-authorization-server
+    status: 200
+    file: zeni-api-oauth-authorization-server.json
+    bytes: 480
+  path_echo_control: passed
 - host: https://zeni.ai
   documents:
   - path: /.well-known/security.txt
@@ -29,3 +34,16 @@ hosts:
   - path: /llms.txt
     status: 200
     note: real llms.txt (text/plain) saved verbatim at llms/zeni-llms.txt
+x-mcp-probe:
+  probed: '2026-09-19'
+  issue: roadmap#321, roadmap#337
+  documents:
+  - host: https://api.zeni.ai
+    path: /auth/.well-known/oauth-authorization-server
+    file: zeni-api-oauth-authorization-server.json
+  validated_on: resource (RFC 9728) / issuer (RFC 8414, OIDC)
+  negative_control: one per host; a 2xx JSON object at an impossible path discards the host
+note: 'MCP-host OAuth discovery added 2026-09-19 (roadmap#321/#337): the harvest visits a provider''s
+  primary hosts, and RFC 9728 protected-resource metadata lives on the MCP host, so these documents existed
+  and were invisible to the scorer. Fetched live and validated on `resource`/`issuer`; one negative control
+  per host.'
